@@ -1,0 +1,72 @@
+<tr>
+<td class="playernum">0/32</td>
+<td class="link"><a href="steam://connect/tf.steph.anie.dev:27015">tf.steph.anie.dev:27015</a></td>
+<td class="name">The Spaceship - Steph's Comp Server</td>
+<td class="map">cp_process_final</td>
+<td class="locked"><span style="color:#3cba4f">No</span></td>
+</tr>
+
+<tr>
+<td class="playernum">0/32</td>
+<td class="link"><a href="steam://connect/rgl.steph.anie.dev:27115">rgl.steph.anie.dev:27115</a></td>
+<td class="name">The Spaceship - RGL Pug Server #1</td>
+<td class="map">cp_process_final</td>
+<td class="locked"><span style="color:#bf2a32">Yes</span></td>
+</tr>
+
+<tr>
+<td class="playernum">0/32</td>
+<td class="link"><a href="steam://connect/rgl.steph.anie.dev:27215">rgl.steph.anie.dev:27215</a></td>
+<td class="name">The Spaceship - RGL Pug Server #2</td>
+<td class="map">cp_process_final</td>
+<td class="locked"><span style="color:#bf2a32">Yes</span></td>
+</tr>
+
+<tr>
+<td class="playernum">0/32</td>
+<td class="link"><a href="steam://connect/rgl.steph.anie.dev:27415">rgl.steph.anie.dev:27415</a></td>
+<td class="name">The Spaceship - RGL Server #1</td>
+<td class="map">cp_process_final</td>
+<td class="locked"><span style="color:#bf2a32">Yes</span></td>
+</tr>
+
+<tr>
+<td class="playernum">0/32</td>
+<td class="link"><a href="steam://connect/rgl.steph.anie.dev:27515">rgl.steph.anie.dev:27515</a></td>
+<td class="name">The Spaceship - RGL Server #2</td>
+<td class="map">cp_process_final</td>
+<td class="locked"><span style="color:#bf2a32">Yes</span></td>
+</tr>
+
+<tr>
+<td class="playernum">0/32</td>
+<td class="link"><a href="steam://connect/rgl.steph.anie.dev:27615">rgl.steph.anie.dev:27615</a></td>
+<td class="name">The Spaceship - RGL Server #3</td>
+<td class="map">cp_process_final</td>
+<td class="locked"><span style="color:#bf2a32">Yes</span></td>
+</tr>
+
+<tr>
+<td class="playernum">0/32</td>
+<td class="link"><a href="steam://connect/rgl.steph.anie.dev:27715">rgl.steph.anie.dev:27715</a></td>
+<td class="name">The Spaceship - RGL Server #4</td>
+<td class="map">cp_process_final</td>
+<td class="locked"><span style="color:#bf2a32">Yes</span></td>
+</tr>
+
+<tr>
+<td class="playernum">0/32</td>
+<td class="link"><a href="steam://connect/rgl.steph.anie.dev:27815">rgl.steph.anie.dev:27815</a></td>
+<td class="name">The Spaceship - RGL Server #5</td>
+<td class="map">cp_process_final</td>
+<td class="locked"><span style="color:#bf2a32">Yes</span></td>
+</tr>
+
+<tr>
+<td class="playernum"><span style="color:#3cba4f">1/32</span></td>
+<td class="link"><a href="steam://connect/newbie.steph.anie.dev:27320">newbie.steph.anie.dev:27320</a> (STV)</td>
+<td class="name">The Spaceship - Newbie Mixes Server</td>
+<td class="map">cp_gullywash_final1</td>
+<td class="locked"><span style="color:#bf2a32">Yes</span></td>
+</tr>
+

@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu|Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1vmax;
+    color: #EEEEEE;
+    background-color: #1F1F2A;
+}
+
+a:link {
+  color: #89cff0;
+}
+
+/* visited link */
+a:visited {
+  color: #800080
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF1493
+}
+
+/* selected link */
+a:active {
+  color: #800080
+}
+
+.serverDiv {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+}
+
+.centeredDiv {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.centerFlex {
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: center;
+}
+
+.centerAd
+{
+ /* display: flex;
+  justify-content: center;*/
+}
+
+.twitterTL
+{
+    padding-right:1%;
+}
+
+.discordDiv
+{
+    padding-left:1%
+}
+
+.twitch {
+    border: 2px solid #ff85d5;
+    border-radius: 5px;
+    overflow:hidden;
+}
+
+iframe
+{
+    border: 3px solid #ff85d5;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table
+{
+   /*height: 33%;*/
+    width: 100%;
+    border:3px solid #ff85d5;
+    border-radius: 10px;
+}
+
+
+html body div#discord-widget div.widget-szj0pM.widget-theme-dark div.widgetHeader-2Hz_Ln {
+
+    background-color: #ff85d5 !important;
+}
+
+th, td {
+    padding: 1px 5px;
+    font-size: 1.1vw;
+    border-collapse: collapse;
+    border: 0px solid black;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow:hidden
+}
+
+th {
+    font-family: 'Lexend Deca', monospace;
+    background-color:#000000;
+}
+
+.servers {
+    font-family: 'Lexend Deca', monospace;
+}
+
+.playernum
+{
+    text-align: center;
+}
+
+.name, .map, .link, .rainbow-name
+{
+    text-align: left;
+}
+
+.maintext > p {
+    padding:  0%;
+}
+
+.maintext {
+    padding-top: 0%;
+    text-align: center;
+}
+
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+.navbar
+{
+    display: flex;
+    font-size: 3vmin;
+    justify-content: center;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: #333;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba(0,0,0,0);
+    /*background-image: linear-gradient(to bottom,
+        rgba(255, 0, 0, 0.6),
+        rgba(255, 166, 0, 0.6),
+        rgba(255, 255, 0, 0.6),
+        rgba(0, 128, 0, 0.6),
+        rgba(0, 0, 255, 0.6),
+        rgba(76, 0, 130, 0.6),
+        rgba(238, 130, 238, 0.6) 99%);*/
+}
+
+.navbar a
+{
+    margin-top: -2px;
+    margin-left: -2px;
+    padding: 2vh 1%;
+    height: 3vmin;
+    display: flex;
+    flex: 0 0 2.5%;
+    justify-content: center;
+    align-items: center;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    border: white 2px solid;
+    border-collapse: collapse;
+    background-color: #2F2F2F;
+}
+
+.navbar a:hover
+{
+    background-color: #ddd;
+    color: black;
+}
+
+
+.navbar a.active {
+    background-image: linear-gradient(to top,
+        rgba(255, 0, 0, 0.4),
+        rgba(255, 166, 0, 0.4),
+        rgba(255, 255, 0, 0.4),
+        rgba(0, 128, 0, 0.4),
+        rgba(0, 0, 255, 0.4),
+        rgba(76, 0, 130, 0.4),
+        rgba(238, 130, 238, 0.4));
+    color: white;
+    border: white 2px solid;
+    justify-content: center;
+    border-collapse: collapse;
+    align-items:center;
+}
+
+#video-playback
+{
+    border: white 80px solid;
+}
+
+.PleaseDontBlockTheseAdsINeedMoneyToHostTheseServersAndItDoesntGrowOnTrees
+{
+    display:flex;
+    position:absolute;
+    left:0;
+    right:0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.leftad
+{
+    padding-right:1%;
+}
+
+.rightad
+{
+    padding-left:1%;
+}
+
+.mobilead
+{
+    display: none;
+}
+
+
+.centerTable
+{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* holy shit css has this ? ? ? ? this is poggers */
+@media only screen and (max-width: 1250px)
+{
+    .twitterTL, .discordDiv, .rightad
+    {
+        display: none;
+    }
+    th, td
+    {
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (max-width: 625px)
+{
+    .map, .mapHeading
+    {
+        display: none;
+    }
+    th, td
+    {
+        font-size: 2vw;
+    }
+    .leftad
+    {
+        display: none;
+    }
+    .mobilead
+    {
+        display: unset;
+    }
+}
+
+.contributions
+{
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 2.66vmin;
+}
+
+h1
+{
+    font-size: 3.5vmin;
+}
+h2
+{
+    font-size: 3.25vmin;
+}
+h3
+{
+    font-size: 2.5vmin;
+}
+
+h4
+{
+    font-size: 2.25vmin;
+}
+
+.middlediv
+{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.blm
+{
+    color:black;
+    text-shadow: 0px 0px 1vmin white;
+}
+
+.qlm
+{
+    color:#FF66CC;
+}
+
+.server_empty
+{
+    color: #696969
+}
+
+.server_notfull
+{
+    color: #3cba4f
+}
+.server_full
+{
+    color: #bf2a32
+}
+
+.server_error
+{
+    color: #FFFF00
+}
+
+.td_error
+{
+    opacity: 25%;
+    text-decoration: line-through;
+    transition: text-decoration opacity .25s ease-out;
+}
+
+.td_error:hover
+{
+    opacity: 100%;
+    text-decoration: none 
+}
+
+
+.server_tablerow {
+  background-color: rgba(31, 31, 42, 1);
+  transition: background-color .05s ease-out;
+}
+
+.server_tablerow:hover {
+  background-color: rgb(15, 15, 17);
+}
+
+
+
+.nobody {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+  opacity: 95%;
+}
+
+/*
+#nobodyhere
+{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+  opacity: 15%;
+}
+*/
+
+#nobodyhere
+{
+   width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  opacity: 15%;
+}
+
+.dotdotdot
+{
+    z-index:2;
+}
+
+
+
+
+
+
+.rainbow-name
+{
+    animation: rainbow 7.5s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow
+{
+    100%,0%
+    {
+        color: rgb(255,0,0);
+    }
+    8%
+    {
+        color: rgb(255,127,0);
+    }
+    16%
+    {
+        color: rgb(255,255,0);
+    }
+    25%
+    {
+      color: rgb(127,255,0);
+    }
+    33%
+    {
+      color: rgb(0,255,0);
+    }
+    41%
+    {
+        color: rgb(0,255,127);
+    }
+    50%
+    {
+        color: rgb(0,255,255);
+    }
+    58%
+    {
+        color: rgb(0,127,255);
+    }
+    66%
+    {
+        color: rgb(0,0,255);
+    }
+    75%
+    {
+        color: rgb(127,0,255);
+    }
+    83%
+    {
+        color: rgb(255,0,255);
+    }
+    91%
+    {
+        color: rgb(255,0,127);
+    }
+}

@@ -1,0 +1,106 @@
+<div class="centerTable">
+<div class="serverDiv" style="">
+<table class="servers">
+<tbody>
+<tr>
+<th>Players</th>
+<th>Connect Link</th>
+<th>Server Name</th>
+<th class="mapHeading">Current Map</th>
+</tr>
+<tr>
+<td class="playernum"> <span class="server_notfull">6/32</span> </td>
+<td class="link"> <a href="steam://connect/mge.sappho.io:27015">mge.sappho.io:27015</a> </td>
+<td class="name">The Spaceship - Chicago ALLCLASS MGE Oihguv - 200 TICK/NO ELO</td>
+<td class="map">mge_oihguv_sucks_b5</td>
+</tr>
+
+<tr>
+<td class="playernum"> <span class="server_notfull">2/24</span> </td>
+<td class="link"> <a href="steam://connect/elo1.sappho.io:27115">elo1.sappho.io:27115</a> </td>
+<td class="name">The Spaceship - Chicago ALLCLASS MGE Training</td>
+<td class="map">mge_training_v8_beta4b</td>
+</tr>
+
+<tr>
+<td class="playernum"> <span class="server_notfull">24/32</span> </td>
+<td class="link"> <a href="steam://connect/elo2.sappho.io:27215">elo2.sappho.io:27215</a> </td>
+<td class="name">The Spaceship - Chicago ALLCLASS MGE Chillypunch</td>
+<td class="map">mge_chillypunch_final4_fix2</td>
+</tr>
+
+<tr>
+<td class="playernum"> <span class="server_empty">0/8</span> </td>
+<td class="link"> <a href="steam://connect/dm.sappho.io:27315">dm.sappho.io:27315</a> </td>
+<td class="name">The Spaceship - Chicago DM #1</td>
+<td class="map">koth_clearcut_b15d</td>
+</tr>
+
+<tr>
+<td class="playernum"> <span class="server_notfull">1/8</span> </td>
+<td class="link"> <a href="steam://connect/dm.sappho.io:27415">dm.sappho.io:27415</a> </td>
+<td class="name">The Spaceship - Chicago DM #2</td>
+<td class="map">cp_sunshine</td>
+</tr>
+
+<tr>
+<td class="playernum"> <span class="server_full">8/8</span> </td>
+<td class="link"> <a href="steam://connect/dm.sappho.io:28315">dm.sappho.io:28315</a> </td>
+<td class="name">The Spaceship - Chicago DM #3</td>
+<td class="map">cp_villa_b17a</td>
+</tr>
+
+<tr>
+<td class="playernum"> <span class="server_full">8/8</span> </td>
+<td class="link"> <a href="steam://connect/dm.sappho.io:28415">dm.sappho.io:28415</a> </td>
+<td class="name">The Spaceship - Chicago DM #4</td>
+<td class="map">ctf_turbine_pro_rc4</td>
+</tr>
+
+<tr>
+<td class="playernum"> <span class="server_empty">0/8</span> </td>
+<td class="link"> <a href="steam://connect/dm.sappho.io:27515">dm.sappho.io:27515</a> </td>
+<td class="name">The Spaceship - Chicago ALT DM #1 - SNIPER ENABLED</td>
+<td class="map">koth_product_rcx</td>
+</tr>
+
+<tr>
+<td class="playernum"> <span class="server_empty">0/8</span> </td>
+<td class="link"> <a href="steam://connect/dm.sappho.io:28215">dm.sappho.io:28215</a> </td>
+<td class="name">The Spaceship - Chicago EXP DM #2 - Free For All!</td>
+<td class="map">ctf_turbine_pro_rc4</td>
+</tr>
+
+<tr>
+<td class="playernum"> <span class="server_empty">0/8</span> </td>
+<td class="link"> <a href="steam://connect/bb1.sappho.io:27715">bb1.sappho.io:27715</a> </td>
+<td class="name">The Spaceship - Open BBall Server</td>
+<td class="map">ctf_ballin_skyfall</td>
+</tr>
+
+<tr>
+<td class="playernum"> <span class="server_empty">0/8</span> </td>
+<td class="link"> <a href="steam://connect/ulti.sappho.io:27815">ulti.sappho.io:27815</a> </td>
+<td class="name">The Spaceship - Open Ultiduo Server</td>
+<td class="map">koth_ultiduo_r_b7</td>
+</tr>
+
+<tr>
+<td class="playernum"> <span class="server_notfull">2/24</span> </td>
+<td class="link"> <a href="steam://connect/pub.sappho.io:27915">pub.sappho.io:27915</a> </td>
+<td class="name">The Spaceship - 24/7 Harvest Deathmatch</td>
+<td class="map">koth_harvest_final</td>
+</tr>
+
+<tr>
+<td class="playernum"> <span class="server_empty">0/32</span> </td>
+<td class="link"> <a href="steam://connect/jump.sappho.io:28015">jump.sappho.io:28015</a> </td>
+<td class="name">The Spaceship - Freestyle Jump Server</td>
+<td class="map">freestyle_lick2_b1</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</div>
+<h3>51 players on 13 servers</h3>

@@ -1,0 +1,20 @@
+# google ads
+ads.txt
+# h5ai stuff
+_h5ai/
+# sourcebans
+bans/configs/
+bans/config.php
+
+config.php
+# stv demos
+stvdemos/
+# player analytics
+inc/config.*
+analytics/cache/
+# stac telemetry hook
+stac/
+.well-known/
+
+# maps
+files/tf/maps/

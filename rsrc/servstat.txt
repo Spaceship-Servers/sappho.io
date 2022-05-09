@@ -1,0 +1,104 @@
+<tr>
+<td class="playernum"><span style="color:#3cba4f">3/32</span></td>
+<td class="link"><a href="steam://connect/mge.sappho.io:27015">mge.sappho.io:27015</a></td>
+<td class="name">The Spaceship - Chicago ALLCLASS MGE Oihguv - 200 TICK/NO ELO</td>
+<td class="map">mge_oihguv_sucks_b5</td>
+<td class="locked"><span style="color:#3cba4f">No</span></td>
+</tr>
+
+<tr>
+<td class="playernum">0/24</td>
+<td class="link"><a href="steam://connect/elo1.sappho.io:27115">elo1.sappho.io:27115</a></td>
+<td class="name">The Spaceship - Chicago ALLCLASS MGE Training</td>
+<td class="map">mge_training_v8_beta4b</td>
+<td class="locked"><span style="color:#3cba4f">No</span></td>
+</tr>
+
+<tr>
+<td class="playernum"><span style="color:#3cba4f">13/32</span></td>
+<td class="link"><a href="steam://connect/elo2.sappho.io:27215">elo2.sappho.io:27215</a></td>
+<td class="name">The Spaceship - Chicago ALLCLASS MGE Chillypunch</td>
+<td class="map">mge_chillypunch_final4_fix2</td>
+<td class="locked"><span style="color:#3cba4f">No</span></td>
+</tr>
+
+<tr>
+<td class="playernum"><span style="color:#bf2a32">8/8</span></td>
+<td class="link"><a href="steam://connect/dm.sappho.io:27315">dm.sappho.io:27315</a></td>
+<td class="name">The Spaceship - Chicago DM #1</td>
+<td class="map">cp_snakewater_final1</td>
+<td class="locked"><span style="color:#3cba4f">No</span></td>
+</tr>
+
+<tr>
+<td class="playernum"><span style="color:#3cba4f">7/8</span></td>
+<td class="link"><a href="steam://connect/dm.sappho.io:27415">dm.sappho.io:27415</a></td>
+<td class="name">The Spaceship - Chicago DM #2</td>
+<td class="map">cp_snakewater_final1</td>
+<td class="locked"><span style="color:#3cba4f">No</span></td>
+</tr>
+
+<tr>
+<td class="playernum">0/8</td>
+<td class="link"><a href="steam://connect/dm.sappho.io:28315">dm.sappho.io:28315</a></td>
+<td class="name">The Spaceship - Chicago DM #3</td>
+<td class="map">cp_reckoner_rc6</td>
+<td class="locked"><span style="color:#3cba4f">No</span></td>
+</tr>
+
+<tr>
+<td class="playernum"><span style="color:#bf2a32">8/8</span></td>
+<td class="link"><a href="steam://connect/dm.sappho.io:28415">dm.sappho.io:28415</a></td>
+<td class="name">The Spaceship - Chicago DM #4</td>
+<td class="map">cp_gullywash_f1a</td>
+<td class="locked"><span style="color:#3cba4f">No</span></td>
+</tr>
+
+<tr>
+<td class="playernum">0/8</td>
+<td class="link"><a href="steam://connect/dm.sappho.io:27515">dm.sappho.io:27515</a></td>
+<td class="name">The Spaceship - Chicago ALT DM #1 - SNIPER ENABLED</td>
+<td class="map">koth_coalplant_b8</td>
+<td class="locked"><span style="color:#3cba4f">No</span></td>
+</tr>
+
+<tr>
+<td class="playernum">0/8</td>
+<td class="link"><a href="steam://connect/dm.sappho.io:28215">dm.sappho.io:28215</a></td>
+<td class="name">The Spaceship - Chicago EXP DM #2 - Free For All!</td>
+<td class="map">koth_coalplant_b8</td>
+<td class="locked"><span style="color:#3cba4f">No</span></td>
+</tr>
+
+<tr>
+<td class="playernum">0/8</td>
+<td class="link"><a href="steam://connect/bb1.sappho.io:27715">bb1.sappho.io:27715</a></td>
+<td class="name">The Spaceship - Open BBall Server</td>
+<td class="map">ctf_ballin_skyfall</td>
+<td class="locked"><span style="color:#3cba4f">No</span></td>
+</tr>
+
+<tr>
+<td class="playernum">0/8</td>
+<td class="link"><a href="steam://connect/ulti.sappho.io:27815">ulti.sappho.io:27815</a></td>
+<td class="name">The Spaceship - Open Ultiduo Server</td>
+<td class="map">ultiduo_seclusion_b3_fixed_wind</td>
+<td class="locked"><span style="color:#3cba4f">No</span></td>
+</tr>
+
+<tr>
+<td class="playernum"><span style="color:#3cba4f">2/24</span></td>
+<td class="link"><a href="steam://connect/pub.sappho.io:27915">pub.sappho.io:27915</a></td>
+<td class="name">The Spaceship - 24/7 Harvest Deathmatch</td>
+<td class="map">koth_harvest_final</td>
+<td class="locked"><span style="color:#3cba4f">No</span></td>
+</tr>
+
+<tr>
+<td class="playernum">0/32</td>
+<td class="link"><a href="steam://connect/jump.sappho.io:28015">jump.sappho.io:28015</a></td>
+<td class="name">The Spaceship - Freestyle Jump Server</td>
+<td class="map">freestyle_lick2_b1</td>
+<td class="locked"><span style="color:#3cba4f">No</span></td>
+</tr>
+

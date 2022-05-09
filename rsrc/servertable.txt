@@ -50,7 +50,7 @@
                 <td class="playernum"> <span class="server_empty">0/8</span> </td>
                 <td class="link"> <a href="steam://connect/dm.sappho.io:28315">dm.sappho.io:28315</a> </td>
                 <td class="name">The Spaceship - DM #3</td>
-                <td class="map">cp_freight_final1</td>
+                <td class="map">cp_metalworks</td>
             </tr>
 
             <tr class="server_tablerow">

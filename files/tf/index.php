@@ -96,7 +96,30 @@
                 // I also wanted to iterate over all files every time something is uploaded but that's expensive, yo
                 $uploadhash = hash_file("xxh64", $tmpname, false);
 
-                // * * * * * xxhsum /var/www/sappho.io/files/tf/maps/* &> /var/www/sappho.io/files/tf/maps/hashes.txt
+                /*
+                    * * * * * ionice -c idle nice -19 chrt -i 0 bash /opt/scripts/xxh.sh
+
+                    /opt/scripts/xxh.sh:
+
+                        #!/bin/bash
+
+                        mapdir=/var/www/sappho.io/files/tf/maps
+
+                        find ${mapdir} -mmin -1 | grep .bsp &> /dev/null
+                        if [ $? -ne 0 ]; then
+                            echo nothing changed headass
+                            exit 0
+                        fi
+
+                        true > ${mapdir}/hashes.txt
+                        for file in *.bsp; do
+                            echo "Processing $file file..";
+                            xxhsum ${mapdir}/$file >> ${mapdir}/hashes.txt
+                            sleep 0.1
+                        done
+
+                        # xxhsum /var/www/sappho.io/files/tf/maps/* > /var/www/sappho.io/files/tf/maps/hashes.txt
+                */
                 $hashes = file_get_contents("/var/www/sappho.io/files/tf/maps/hashes.txt");
 
                 // we found another identical file!

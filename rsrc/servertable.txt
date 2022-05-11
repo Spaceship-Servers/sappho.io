@@ -78,7 +78,7 @@
                 <td class="playernum"> <span class="server_empty">0/8</span> </td>
                 <td class="link"> <a href="steam://connect/dm.sappho.io:27050">dm.sappho.io:27050</a> </td>
                 <td class="name">The Spaceship - FFA Instagib [BETA]</td>
-                <td class="map">koth_bagel_rc5</td>
+                <td class="map">cp_process_f11</td>
             </tr>
 
             <tr class="server_tablerow">
@@ -92,7 +92,7 @@
                 <td class="playernum"> <span class="server_empty">0/24</span> </td>
                 <td class="link"> <a href="steam://connect/tf.sappho.io:29999">tf.sappho.io:29999</a> </td>
                 <td class="rainbow-name">The Spaceship - The Pub</td>
-                <td class="map">koth_bagel_rc5</td>
+                <td class="map">cp_reckoner_rc6</td>
             </tr>
 
         </tbody>

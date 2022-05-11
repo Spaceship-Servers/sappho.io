@@ -49,29 +49,34 @@
             $sanitized = preg_replace('/(\.{2,})/','', $sanitized);
             $realname  = basename($sanitized);
 
-
-            // User clicked submit without selecting a file
-            if (!$realname)
-            {
-                echo "You have to upload a file.\n";
-                die();
-            }
-
             echo "<pre>\n";
 
-            // Prevent super long file names
-            if (strlen($realname) > 32)
-            {
-                echo "File name too long. Try again.\n";
-                die();
-            }
-            
-            $mapsize    = $_FILES['map']['size'];
-            $humansize  = sprintf("%.02f MB", $mapsize/1000/1000);
+                // User clicked submit without selecting a file
+                if (!$realname)
+                {
+                    echo "You have to upload a file.\n";
+                    die();
+                }
+
+                // Prevent super long file names
+                if (strlen($realname) > 32)
+                {
+                    echo "File name too long. Try again.\n";
+                    die();
+                }
+
+                $mapsize = $_FILES['map']['size'];
+                $humansize  = sprintf("%.02f MB", $mapsize/1000/1000);
+
+                if ($mapsize > (64 * 1000 * 1000))
+                {
+                    echo "File is too big. Max size is 64MB. Your file was " . $humansize . ". Try again.\n";
+                    die();
+                }
+
                 
                 echo "map name:  $realname\n";
                 echo "file size: $humansize\n\n";
-
 
                 // Don't let users upload default tf2 maps
                 $defaultfiles = file_get_contents("/var/www/sappho.io/files/tf/maps/defaultmaps.txt");
@@ -164,8 +169,8 @@
 
 
                 }
-            echo "</pre>";
         ?>
+        </pre>
     </body>
 </html>
 

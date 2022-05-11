@@ -469,3 +469,14 @@ h4
         color: rgb(255,0,127);
     }
 }
+
+input
+{
+    font-family: Lexend Deca;
+}
+
+pre
+{
+    font-family: Inconsolata;
+    font-size: 2.5vmin;
+}

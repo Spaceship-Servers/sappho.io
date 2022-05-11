@@ -36,21 +36,21 @@
                 <td class="playernum"> <span class="server_empty">0/8</span> </td>
                 <td class="link"> <a href="steam://connect/dm.sappho.io:27315">dm.sappho.io:27315</a> </td>
                 <td class="name">The Spaceship - DM #1</td>
-                <td class="map">cp_sunshine</td>
+                <td class="map">ctf_turbine_pro_rc4</td>
             </tr>
 
             <tr class="server_tablerow">
                 <td class="playernum"> <span class="server_empty">0/8</span> </td>
                 <td class="link"> <a href="steam://connect/dm.sappho.io:27415">dm.sappho.io:27415</a> </td>
                 <td class="name">The Spaceship - DM #2</td>
-                <td class="map">cp_sunshine</td>
+                <td class="map">cp_process_f11</td>
             </tr>
 
             <tr class="server_tablerow">
                 <td class="playernum"> <span class="server_empty">0/8</span> </td>
                 <td class="link"> <a href="steam://connect/dm.sappho.io:28315">dm.sappho.io:28315</a> </td>
                 <td class="name">The Spaceship - DM #3</td>
-                <td class="map">cp_metalworks</td>
+                <td class="map">cp_snakewater_final1</td>
             </tr>
 
             <tr class="server_tablerow">
@@ -78,21 +78,21 @@
                 <td class="playernum"> <span class="server_empty">0/8</span> </td>
                 <td class="link"> <a href="steam://connect/dm.sappho.io:27050">dm.sappho.io:27050</a> </td>
                 <td class="name">The Spaceship - FFA Instagib [BETA]</td>
-                <td class="map">cp_sunshine</td>
+                <td class="map">koth_bagel_rc5</td>
             </tr>
 
             <tr class="server_tablerow">
                 <td class="playernum"> <span class="server_empty">0/24</span> </td>
                 <td class="link"> <a href="steam://connect/tf.sappho.io:29015">tf.sappho.io:29015</a> </td>
                 <td class="name">The Spaceship - Freestyle Jump Server</td>
-                <td class="map">freestyle_axolotl</td>
+                <td class="map">freestyle_lick2_b1</td>
             </tr>
 
             <tr class="server_tablerow">
                 <td class="playernum"> <span class="server_empty">0/24</span> </td>
                 <td class="link"> <a href="steam://connect/tf.sappho.io:29999">tf.sappho.io:29999</a> </td>
                 <td class="rainbow-name">The Spaceship - The Pub</td>
-                <td class="map">pl_borneo</td>
+                <td class="map">koth_bagel_rc5</td>
             </tr>
 
         </tbody>

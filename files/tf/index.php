@@ -49,15 +49,15 @@
             $sanitized = preg_replace('/(\.{2,})/','', $sanitized);
             $realname  = basename($sanitized);
 
-            echo "<pre>\n";
 
             // User clicked submit without selecting a file
             if (!$realname)
-            {
-                echo "You have to upload a file.";
+                echo "You have to upload a file.\n";
                 die();
             }
+            echo "<pre>\n";
 
+            // Prevent super long file names
             if (strlen($realname) > 32)
             {
                 echo "File name too long. Try again.\n";

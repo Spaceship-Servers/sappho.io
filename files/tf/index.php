@@ -97,7 +97,8 @@
                 $uploadhash = hash_file("xxh64", $tmpname, false);
 
                 /*
-                    * * * * * ionice -c idle nice -19 chrt -i 0 bash /opt/scripts/xxh.sh
+                    crontab:
+                        * * * * * ionice -c idle nice -19 chrt -i 0 bash /opt/scripts/xxh.sh
 
                     /opt/scripts/xxh.sh:
 

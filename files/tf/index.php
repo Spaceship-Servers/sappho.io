@@ -39,7 +39,17 @@
             }
 
             $tmpname    = $_FILES['map']['tmp_name'];
+            // this needs sanitized.
             $realname   = $_FILES['map']['name'];
+
+            $uri = "sappho.io/files/tf/maps/";
+
+            // just get rid of bullshit characters. i dont care about i18n
+            $sanitized = preg_replace('/([^a-zA-Z0-9\-\._])|(\.{2,})/','', $realname);
+            $sanitized = preg_replace('/(\.{2,})/','', $sanitized);
+            $realname  = basename($sanitized);
+
+            echo "<pre>\n";
 
             // User clicked submit without selecting a file
             if (!$realname)
@@ -47,11 +57,16 @@
                 echo "You have to upload a file.";
                 die();
             }
+
+            if (strlen($realname) > 32)
+            {
+                echo "File name too long. Try again.\n";
+                die();
+            }
             
             $mapsize    = $_FILES['map']['size'];
             $humansize  = sprintf("%.02f MB", $mapsize/1000/1000);
                 
-            echo "<pre>\n";
                 echo "map name:  $realname\n";
                 echo "file size: $humansize\n\n";
 
@@ -138,13 +153,15 @@
                     }
                 }
                 echo "\n";
-                $uri = "sappho.io/files/tf/maps/";
-
-                echo "Your map has been uploaded to the server. The url is:\n";
-                echo "https://" . $uri . $realname . "\n";
 
                 $finaldir = "/var/www/" . $uri . $realname;
-                rename($tmpname, $finaldir);
+                if (move_uploaded_file($tmpname, $finaldir))
+                {
+                    echo "Your map has been uploaded to the server. The url is:\n";
+                echo "https://" . $uri . $realname . "\n";
+
+
+                }
             echo "</pre>";
         ?>
     </body>

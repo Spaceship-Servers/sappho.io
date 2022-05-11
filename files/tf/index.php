@@ -52,9 +52,11 @@
 
             // User clicked submit without selecting a file
             if (!$realname)
+            {
                 echo "You have to upload a file.\n";
                 die();
             }
+
             echo "<pre>\n";
 
             // Prevent super long file names

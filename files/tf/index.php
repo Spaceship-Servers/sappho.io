@@ -68,6 +68,7 @@
                 $mapsize = $_FILES['map']['size'];
                 $humansize  = sprintf("%.02f MB", $mapsize/1000/1000);
 
+                // size check just in case user bypasses the client ones
                 if ($mapsize > (64 * 1000 * 1000))
                 {
                     echo "File is too big. Max size is 64MB. Your file was " . $humansize . ". Try again.\n";

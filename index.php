@@ -78,6 +78,7 @@
         <h3>a sampling of things i've worked on include:</h3>
         <ul>
             <li><a href="/spaceship/">Spaceship Servers</a>, a collection of competitive focused team fortress 2 game servers</li>
+            <li><a href="https://github.com/Spaceship-Servers/sappho.io">This website!</a></li>
             <li><a href="https://github.com/sapphonie/StAC-tf2">StAC</a>, an anticheat <a href="https://github.com/alliedmodders/sourcemod/">sourcemod</a> server plugin written in <a href="https://github.com/alliedmodders/sourcepawn">sourcepawn</a> for team fortress 2</li>
             <li><a href="https://github.com/sapphonie/tf2-WriteTempEnts">"tf2 WriteTempEnts"</a>, a small reverse engineering project involving team fortress 2's <span style="font-family: monospace">CBaseClient::WriteTempEntities</span> function, written in sourcepawn</li>
             <li><a href="https://github.com/sapphonie/SM-GetMem">SM-GetMem</a>, a sourcemod "extension" (C++ server plugin) to get the memory usage of a running server</li>
@@ -87,7 +88,7 @@
         </ul>
         <h3>other projects i've contributed to in the past include:</h3>
         <ul>
-            <li><a href="https://creators.tf/">Creators.TF</a>, now defunct. Was one of the largest team fortress 2 community game server projects. i was a lead sysadmin and core developer for this project.</li>
+            <li><a href="https://creators.tf/">Creators.TF</a>, now defunct. Was one of the largest team fortress 2 community game server projects. i was a lead sysadmin and core developer.</li>
             <li><a href="https://twitter.com/tf2league">Team Fortress Competitive League</a>, now defunct. Was a team fortress 2 competitive league. i was a head administrator and sourcemod developer.</li>
             <li><a href="https://rgl.gg/">Recharge Gaming League</a>, one of the largest team fortress 2 competitive leagues. i was an anticheat administrator, systems engineer, and sourcemod developer.</li>
         </ul>

@@ -112,14 +112,16 @@
                             exit 0
                         fi
 
-                        true > ${mapdir}/hashes.txt
                         for file in *.bsp; do
                             echo "Processing $file file..";
-                            xxhsum ${mapdir}/$file >> ${mapdir}/hashes.txt
+                            xxhsum "${mapdir}"/"$file" >> "${mapdir}"/hashes.tmp
                             sleep 0.1
                         done
 
-                        # xxhsum /var/www/sappho.io/files/tf/maps/* > /var/www/sappho.io/files/tf/maps/hashes.txt
+                        true > "${mapdir}"/hashes.txt
+                        mv "${mapdir}"/hashes.tmp "${mapdir}"/hashes.txt
+
+                        # xxhsum /var/www/sappho.io/files/tf/maps/* > /var/www/sappho.io/files/tf/maps/hashes.tmp; sync; sleep 1; mv /var/www/sappho.io/files/tf/maps/hashes.tmp /var/www/sappho.io/files/tf/maps/hashes.txt
                 */
                 $hashes = file_get_contents("/var/www/sappho.io/files/tf/maps/hashes.txt");
 
@@ -190,9 +192,7 @@
                 if (move_uploaded_file($tmpname, $finaldir))
                 {
                     echo "Your map has been uploaded to the server. The url is:\n";
-                echo "https://" . $uri . $realname . "\n";
-
-
+                    echo "https://" . $uri . $realname . "\n";
                 }
         ?>
         </pre>

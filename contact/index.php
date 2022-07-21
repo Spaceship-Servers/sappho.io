@@ -13,7 +13,6 @@
         <a href="/donate">Donate</a>
         <a href="https://github.com/sapphonie">Github</a>
     </div>
-<h3>Need a Source Engine or Minecraft server? Want help with one of my plugins?</h3>
 <h3>Join the <a href="https://discord.gg/Dn4wRu3">Spaceship Server Network discord</a> or email me at</h3>
 <p><a href="mailto:sappho@sappho.io">sappho@sappho.io</a>
 </body>

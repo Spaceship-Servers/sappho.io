@@ -1,0 +1,95 @@
+Hello.
+
+My name is Stephanie. I go by "sappho" or "sapphonie". I've been a fan of Tean Fortress 2 since 2015, and have played it avidly since installing it then.
+
+I also am a hobbiest reverse engineer and developer. I make SourceMod plugins, run Team Fortress 2 servers, and everything in between.
+
+Far and away my most popular SourceMod plugin, is a thing I call "Steph's AntiCheat". It's a pretty good server side anticheat, and does what it can against cheaters.
+
+I am writing today to possibly get someone, anyone, at Valve Software, to implement at least some part of what I know to be several methods of stopping the cheater bots that plague Team Fortress 2.
+
+Some of these methods are things I already do with my SourceMod plugin. Some are things that the people that develop the game alone can implement.
+
+I do not expect a response.
+
+But, on the off chance that this email does not go to the byte bucket, here's some simple fixes that could be implemented. I fully release any and all responsibility and liability for these, and designate this advice as public domain.
+
+The biggest way to stop these bots:
+
+Remove native linux support, and fully remove -textmode from the game.
+
+This would absolutely demolish these bots for months, maybe years, if not forever.
+
+These bots rely on VAC's inability to properly work on linux, and actively exploit and abuse the fact that linux is much simpler to develop for.
+
+For example, the cathook developers have written a small library that they preload into steam with LD_PRELOAD, called libvpcfs.so. You can find the source for it here:
+
+https://gitlab.com/nullworks/cathook/just-disable-vac/
+
+This library creates fake PCI and USB devices in the /tmp/ pseudofilesystem, in a subfolder called "devXXXXXX":
+
+https://gitlab.com/nullworks/cathook/just-disable-vac/-/blob/master/src/fakedev.c#L41
+
+The full path for these would be /tmp/devXXXXXX/<fakedevices>
+
+It also hooks fgets and nftw.
+
+For nftw, it redirects any paths into /sys/devices/ to the fake filesystem it created earlier, in /tmp/.
+For fgets, it ignores the string "cathook" or the string "libvpcfs", aka the name of the library itself.
+
+It seems to me that you could check the /tmp/ folder for that devXXXXXX subfolder.
+
+https://gitlab.com/nullworks/cathook/just-disable-vac/-/blob/master/src/fakedev.c#L41
+
+That'd be a pretty clear indicator of cathook usage, but they would just eventually hook ntfw or whatever other function you used. Still, this is something worth considering.
+
+Now, this absolutely wouldn't be impossible to do on Windows, but it'd be a real pain in the ass to rewrite years of code just to run on Windows without textmode...
+
+Which is my next point.
+
+Please remove textmode. The -textmode launch option. It serves no purpose other than to give these cheaters a starting point for running TF2 headless, aka without any graphics, so that they can run a bunch of these bots very cheaply on digitalocean droplets or linodes or whatever. At least make them put in the work to run TF2 headless without giving them this freebie.
+
+Maybe even put in better checks to detect when running TF2 without any graphics, like detecting no mouse movement in usercmds, or a lack of running graphics drivers? Just a thought.
+
+If removing linux support isn't an option, consider at least obsfucating some simple things that would make it a little bit harder to disable VAC.
+
+Cathook disables the client check for -insecure and -textmode, here:
+
+https://github.com/nullworks/cathook/blob/master/src/textmode.cpp#L14-L24
+
+This corresponds to these functions, respectively:
+
+https://github.com/lua9520/source-engine-2018-hl2_src/blob/3bf9df6b2785fa6d951086978a3e66f49427166a/engine/host.cpp#L4062-L4068
+https://github.com/lua9520/source-engine-2018-hl2_src/blob/3bf9df6b2785fa6d951086978a3e66f49427166a/engine/sys_dll2.cpp#L1761-L1791
+
+Forgive me for using the leaked source code, but there should be more than two checks to prevent a user from running the game in insecure mode while still connecting to VAC secure servers.
+
+Also, you could very easily check for a hook on these functions, by comparing the byte signatures of what the compiler generates for these functions to what cathook memory patches to get them to return true no matter what. I don't think that would be super difficult.
+
+There's other ways to detect catbots that I use myself, in my anticheat.
+
+It's a serverside anticheat so I don't expect any of these to be implemented, but I'm including them here for posterity.
+
+Cathook creates a console command, "cat_load", for loading configs. It is server queryable. Only people using cathook will have this cvar.
+
+I check for this by querying this convar and checking if a convar is *not* "QueryCvarValueStatus_CvarNotFound", using IServerPluginHelpers::StartQueryCvarValue, from the SDK. Actually, I use SourceMod and its associated helper functions, but it's the same in principle.
+
+Cathook also uses a "call and response" system to identify other cathook users.
+
+https://github.com/nullworks/cathook/blob/e23ef7e2d38344ecba8f3649fa5941d1ed9b1633/src/hooks/SendNetMsg.cpp#L189-L208
+
+It does this by unlocking a fake achievement (thru a keyvalues command) with achievement_id (hex) CA7 / CA8.
+
+I check for this by checking all client keyvalues commands and achievement_earned events for invalid achievement ids:
+
+https://github.com/sapphonie/StAC-tf2/blob/master/scripting/stac/stac_misc_checks.sp#L462
+
+These are my ideas for fixing the "bot crisis" in TF2.
+
+I hope that they can be of some use, and that maybe you will consider what I have written. TF2 means a lot to me. It's shaped my life in untold ways.
+
+Please do something to keep it alive for the future.
+
+Thank you for your time.
+
+- Stephanie "sappho" L.

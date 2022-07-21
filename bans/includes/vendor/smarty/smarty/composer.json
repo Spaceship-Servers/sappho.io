@@ -29,11 +29,5 @@
             "libs/Smarty_Compiler.class.php",
             "libs/Config_File.class.php"
         ]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "2.6.x-dev"
-        }
     }
-
 }

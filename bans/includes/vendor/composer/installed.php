@@ -20,12 +20,12 @@
             'dev_requirement' => false,
         ),
         'maxmind-db/reader' => array(
-            'pretty_version' => 'v1.10.1',
-            'version' => '1.10.1.0',
+            'pretty_version' => 'v1.11.0',
+            'version' => '1.11.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../maxmind-db/reader',
             'aliases' => array(),
-            'reference' => '569bd44d97d30a4ec12c7793a33004a76d4caf18',
+            'reference' => 'b1f3c0699525336d09cc5161a2861268d9f2ae5b',
             'dev_requirement' => false,
         ),
         'sbpp/sourcebans-pp' => array(
@@ -38,12 +38,12 @@
             'dev_requirement' => false,
         ),
         'smarty/smarty' => array(
-            'pretty_version' => 'v2.6.31',
-            'version' => '2.6.31.0',
+            'pretty_version' => 'v2.6.33',
+            'version' => '2.6.33.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../smarty/smarty',
             'aliases' => array(),
-            'reference' => '4ab9757b492f08a38f68123a6e7c1df7110bbc49',
+            'reference' => '533fa2abe308dcc009c7bdab977d530b32408346',
             'dev_requirement' => false,
         ),
         'xpaw/php-source-query-class' => array(

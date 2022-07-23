@@ -80,7 +80,8 @@
             <li><a href="/spaceship/">Spaceship Servers</a>, a collection of competitive focused team fortress 2 game servers</li>
             <li><a href="https://github.com/Spaceship-Servers/sappho.io">This website!</a></li>
             <li><a href="https://github.com/sapphonie/StAC-tf2">StAC</a>, an anticheat <a href="https://github.com/alliedmodders/sourcemod/">sourcemod</a> server plugin written in <a href="https://github.com/alliedmodders/sourcepawn">sourcepawn</a> for team fortress 2</li>
-            <li><a href="https://openfortress.fun">Open Fortress</a>, a Quake Like TF2 based Source Mod. I am an anticheat developer and systems engineer.</li>
+            <li><a href="https://openfortress.fun">Open Fortress</a>, a Quake like/afps TF2-based Source Mod. I am an anticheat developer and systems engineer.</li>
+            <li><a href="https://openfortress.fun">Open Fortress</a>, an "old school TF2" TF2-based Source Mod. I am an anticheat developer.</li>
             <li><a href="https://github.com/sapphonie/tf2-WriteTempEnts">"tf2 WriteTempEnts"</a>, a small reverse engineering project involving team fortress 2's <span style="font-family: monospace">CBaseClient::WriteTempEntities</span> function, written in sourcepawn</li>
             <li><a href="https://github.com/sapphonie/SM-GetMem">SM-GetMem</a>, a sourcemod "extension" (C++ server plugin) to get the memory usage of a running server</li>
             <li><a href="https://github.com/sapphonie/fail2ban-sshd-aggressive-ufw-log">"fail2ban sshd aggressive ufw log"</a>, a small set of configs for <a href="https://help.ubuntu.com/community/UFW">UncomplicatedFireWall</a> and <a href="https://www.fail2ban.org/wiki/index.php/Main_Page">Fail2Ban</a>, to automatically ban users attempting to bruteforce entry to a linux server

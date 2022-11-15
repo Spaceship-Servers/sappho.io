@@ -100,7 +100,7 @@ html body div#discord-widget div.widget-szj0pM.widget-theme-dark div.widgetHeade
 }
 
 th, td {
-    padding: 1px 5px;
+    padding: 1px 3px;
     font-size: 1.1vw;
     border-collapse: collapse;
     border: 0px solid black;
@@ -479,4 +479,13 @@ pre
 {
     font-family: Inconsolata;
     font-size: 2.5vmin;
+}
+
+.gametype
+{
+padding: 0px
+}
+
+td.gametype img {
+  height: 20px !important;
 }

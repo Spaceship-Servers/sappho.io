@@ -5,11 +5,11 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" type="text/css" href="/rsrc/general.css">
         <title>hi</title>
-        <link rel="icon" type="image/png" href="/rsrc/milky_way_twimoji_new_round_pride.png">
+        <link rel="icon" type="image/png" href="/rsrc/galaxyemoji_new_round.png">
         <meta property="og:description" content="homepage for spaceship servers">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://sappho.io">
-        <meta property="og:image" content="/rsrc/milky_way_twimoji_new_round_pride.png">
+        <meta property="og:image" content="/rsrc/galaxyemoji_new_round.png">
         <meta property="og:title" content="spaceship servers">
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>

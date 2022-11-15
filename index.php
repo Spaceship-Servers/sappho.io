@@ -81,7 +81,7 @@
             <li><a href="https://github.com/Spaceship-Servers/sappho.io">This website!</a></li>
             <li><a href="https://github.com/sapphonie/StAC-tf2">StAC</a>, an anticheat <a href="https://github.com/alliedmodders/sourcemod/">sourcemod</a> server plugin written in <a href="https://github.com/alliedmodders/sourcepawn">sourcepawn</a> for team fortress 2</li>
 <!--        <li><a href="https://momentum-mod.org/">Momentum Mod</a>, a free, standalone movement-focused platformer built on the Source Engine. I am a C++ developer, with a specific focus on anticheat and exploit prevention.</li> -->
-            <li><a href="https://openfortress.fun">Open Fortress</a>, a Quake like/afps TF2-based Source Mod. I was a C++ developer, and I currently do anticheat and systems engineering.</li>
+            <li><a href="https://openfortress.fun">Open Fortress</a>, a Quake like/afps TF2-based Source Mod. I was a C++ developer, and I currently do anticheat consulting and systems engineering.</li>
             <li><a href="https://tf2classic.com">Team Fortress 2 Classic</a>, an "old school TF2" TF2-based Source Mod. I was a C++ developer, and I currently do anticheat consulting and systems engineering.</li>
             <li><a href="https://github.com/sapphonie/tf2-WriteTempEnts">"tf2 WriteTempEnts"</a>, a small reverse engineering project involving team fortress 2's <span style="font-family: monospace">CBaseClient::WriteTempEntities</span> function, written in sourcepawn</li>
             <li><a href="https://github.com/sapphonie/SM-GetMem">SM-GetMem</a>, a sourcemod "extension" (C++ server plugin) to get the memory usage of a running server</li>

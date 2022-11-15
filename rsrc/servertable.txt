@@ -1,6 +1,6 @@
 
 <div class="centerTable">
-    <h3 style="margin: 5px">There are <span style="color:#ff85d5">2</span> players across <span style="color:#ff85d5">13</span> servers!</h3>
+    <h3 style="margin: 5px">There are <span style="color:#ff85d5">4</span> players across <span style="color:#ff85d5">13</span> servers!</h3>
     <div class="serverDiv" style="">
         <table class="servers">
         <tbody>
@@ -19,14 +19,14 @@
             </tr>
 
             <tr class="server_tablerow">
-                <td class="playernum"> <span class="server_notfull">1/32</span> </td>
+                <td class="playernum"> <span class="server_notfull">2/32</span> </td>
                 <td class="link"> <a href="steam://connect/elo1.sappho.io:27115">elo1.sappho.io:27115</a> </td>
                 <td class="name">The Spaceship - ALLCLASS MGE Training</td>
                 <td class="map">mge_training_v8_beta4b</td>
             </tr>
 
             <tr class="server_tablerow">
-                <td class="playernum"> <span class="server_notfull">1/32</span> </td>
+                <td class="playernum"> <span class="server_notfull">2/32</span> </td>
                 <td class="link"> <a href="steam://connect/elo2.sappho.io:27215">elo2.sappho.io:27215</a> </td>
                 <td class="name">The Spaceship - ALLCLASS MGE Chillypunch</td>
                 <td class="map">mge_chillypunch_final4_fix2</td>
@@ -64,7 +64,7 @@
                 <td class="playernum"> <span class="server_empty">0/24</span> </td>
                 <td class="link"> <a href="steam://connect/tf.sappho.io:27615">tf.sappho.io:27615</a> </td>
                 <td class="name">The Spaceship - Open Ultiduo Server</td>
-                <td class="map">ultiduo_nicecicles_v2</td>
+                <td class="map">ultiduo_acropolis_b2</td>
             </tr>
 
             <tr class="server_tablerow">

@@ -27,6 +27,7 @@
         <a href="https://github.com/sapphonie">Github</a>
     </div>
 
+<p><a href="https://www.patreon.com/sapphonie">Patreon</a>
 <p><a href="https://paypal.me/thesqrtminus1">Paypal</a>
 <p><a href="https://ko-fi.com/stephanielgbt">Ko-Fi</a>
 <p><a href="https://streamelements.com/sapphonie/tip">StreamElements</a>

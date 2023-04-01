@@ -6,7 +6,7 @@
         </tr>
         <tr>
             <td><div align="left">
-                    <textarea rows="10" cols="60" class="submit-fields" style="width:500px;" id="commenttext" name="commenttext">{$commenttext}</textarea>
+                    <textarea rows="10" cols="60" class="submit-fields" style="width:500px;" id="commenttext" name="commenttext" {if !$canedit}disabled{/if}>{$commenttext}</textarea>
                 </div>
                 <div id="commenttext.msg" class="badentry"></div></td>
         </tr>
@@ -20,11 +20,13 @@
                     <input type="hidden" name="cid" id="cid" value="-1">
                 {/if}
                 <input type="hidden" name="page" id="page" value="{$page}">
-                {sb_button text="$commenttype Comment" onclick="ProcessComment();" class="ok" id="acom" submit=false}&nbsp;
-                {sb_button text="Back" onclick="history.go(-1)" class="cancel" id="aback"}
+                {if $canedit}
+                    {sb_button text="$commenttype Comment" onclick="ProcessComment();" class="ok" id="acom" submit=false}&nbsp;
+                    {sb_button text="Back" onclick="history.go(-1)" class="cancel" id="aback"}
+                {/if}
             </td>
         </tr>
-        {foreach from="$othercomments" item="com"}
+        {foreach from=$othercomments item="com"}
             <tr>
                 <td colspan='3'>
                     <hr>
@@ -52,7 +54,7 @@
 {else}
     <h3 align="left">Banlist Overview - <i>Total Bans: {$total_bans}</i></h3>
     <br />
-    {php} require (TEMPLATES_PATH . "/admin.bans.search.php");{/php}
+    {load_template file='admin.bans.search'}
     <br />
     <div id="banlist-nav"><a href="index.php?p=banlist&hideinactive={if $hidetext == 'Hide'}true{else}false{/if}{$searchlink|htmlspecialchars}" title="{$hidetext} inactive">{$hidetext} inactive</a> | <i>Total Bans: {$total_bans}</i></div>
     <div id="banlist">

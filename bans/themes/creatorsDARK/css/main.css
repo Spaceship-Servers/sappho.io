@@ -76,6 +76,30 @@ a:hover {
   color: #b05015;
 }
 
+.dashboard-blocks-separate
+{
+display:none !important;
+}
+.front-module.dashboard-ban-blocks {
+  width: 49% !important;
+  float: left;
+}
+
+.front-module.dashboard-comm-blocks {
+  width: 49% !important;
+  float: right;
+  /* font-size:10px !important; */
+}
+
+/* idk */
+.listtable_1 {
+  height: 24px !important;
+}
+td.listtable_1
+{
+   /* padding-top: 0px !important; */
+}
+
 .inputbox {
     border: 1px solid #000000;
     width: 105px;

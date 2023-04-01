@@ -10,10 +10,10 @@
                 {
                     var size = this.files[0].size;
                     // 64 MB max
-                    if (size > (64 * 1000 * 1000))
+                    if (size > (128 * 1000 * 1000))
                     {
                         var size_mb = Number(parseFloat(size/1000/1000).toFixed(2));
-                        alert("File is too big! Max size is 64MB. Your file was " + size_mb + "MB.");
+                        alert("File is too big! Max size is 128MB. Your file was " + size_mb + "MB.");
                         this.value = "";
                     };
                 };
@@ -22,7 +22,7 @@
     </head>
     <body onload="get_input_id()">
         <form action="" method="post" enctype="multipart/form-data">
-            <input type="hidden" name="MAX_FILE_SIZE" value="64000000"> 
+            <input type="hidden" name="MAX_FILE_SIZE" value="128000000"> 
             <input type="file" name="map" id="fileupload" accept=".bsp">
             <input type="submit" value="Submit">
         </form>
@@ -32,7 +32,7 @@
             // User just got here
             if (!$_FILES)
             {
-                echo "<p style=\"font-size:2vmin;\">Upload any TF2 map file, up to 64MB.\n";
+                echo "<p style=\"font-size:2vmin;\">Upload any TF2 map file, up to 128MB.\n";
                 echo "<p style=\"font-size:2vmin;\">To use this as a FastDL for a TF2 server, put the following in your server.cfg:\n";
                 echo "<pre>sv_downloadurl \"https://sappho.io/files/tf/\"</pre>";
                 die();
@@ -69,9 +69,9 @@
                 $humansize  = sprintf("%.02f MB", $mapsize/1000/1000);
 
                 // size check just in case user bypasses the client ones
-                if ($mapsize > (64 * 1000 * 1000))
+                if ($mapsize > (128 * 1000 * 1000))
                 {
-                    echo "File is too big. Max size is 64MB. Your file was " . $humansize . ". Try again.\n";
+                    echo "File is too big. Max size is 128MB. Your file was " . $humansize . ". Try again.\n";
                     die();
                 }
 

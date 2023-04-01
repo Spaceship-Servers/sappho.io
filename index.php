@@ -91,8 +91,8 @@
         </ul>
         <h3>other projects i've contributed to in the past include:</h3>
         <ul>
-            <li><a href="https://creators.tf/">Creators.TF</a>, now defunct. Was one of the largest team fortress 2 community game server projects. i was a lead sysadmin and core developer.</li>
-            <li><a href="https://twitter.com/tf2league">Team Fortress Competitive League</a>, now defunct. Was a team fortress 2 competitive league. i was a head administrator and sourcemod developer.</li>
+            <li>CreatorsTF, now defunct. Former one of the largest team fortress 2 community game server projects. I was a lead sysadmin and core developer.</li>
+            <li><a href="https://twitter.com/tf2league">Team Fortress Competitive League</a>, now defunct. was a team fortress 2 competitive league. i was a head administrator and sourcemod developer.</li>
             <li><a href="https://rgl.gg/">Recharge Gaming League</a>, one of the largest team fortress 2 competitive leagues. i was an anticheat administrator, systems engineer, and sourcemod developer.</li>
         </ul>
     </div>

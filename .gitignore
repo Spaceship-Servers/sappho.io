@@ -18,3 +18,5 @@ stac/
 
 # maps
 files/tf/maps/
+
+tf2c_clearcache/

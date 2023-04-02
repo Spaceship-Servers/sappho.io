@@ -1,6 +1,6 @@
 
 <div class="centerTable">
-    <h3 style="margin: 5px">There are <span style="color:#ff85d5">9</span> players across <span style="color:#ff85d5">15</span> servers!</h3>
+    <h3 style="margin: 5px">There are <span style="color:#ff85d5">0</span> players across <span style="color:#ff85d5">14</span> servers!</h3>
     <div class="serverDiv" style="">
         <table class="servers">
         <tbody>
@@ -14,7 +14,7 @@
             
             <tr class="server_tablerow">
                 <td class="gametype"><a href="https://www.teamfortress.com/"><img src="https://steamcdn-a.akamaihd.net/apps/tf2/blog/images/favicon.ico"></a></td>
-                <td class="playernum"> <span class="server_notfull">3/32</span> </td>
+                <td class="playernum"> <span class="server_empty">0/32</span> </td>
                 <td class="link"> <a href="steam://connect/tf.sappho.io:27015">tf.sappho.io:27015</a> </td>
                 <td class="name">The Spaceship - ALLCLASS MGE Oihguv - 200 TICK/NO ELO</td>
                 <td class="map">mge_oihguv_sucks_b5</td>
@@ -30,7 +30,7 @@
 
             <tr class="server_tablerow">
                 <td class="gametype"><a href="https://www.teamfortress.com/"><img src="https://steamcdn-a.akamaihd.net/apps/tf2/blog/images/favicon.ico"></a></td>
-                <td class="playernum"> <span class="server_notfull">6/32</span> </td>
+                <td class="playernum"> <span class="server_empty">0/32</span> </td>
                 <td class="link"> <a href="steam://connect/elo2.sappho.io:27215">elo2.sappho.io:27215</a> </td>
                 <td class="name">The Spaceship - ALLCLASS MGE Chillypunch</td>
                 <td class="map">mge_chillypunch_final4_fix2</td>
@@ -41,7 +41,7 @@
                 <td class="playernum"> <span class="server_empty">0/8</span> </td>
                 <td class="link"> <a href="steam://connect/dm.sappho.io:27315">dm.sappho.io:27315</a> </td>
                 <td class="name">The Spaceship - DM #1</td>
-                <td class="map">koth_bagel_rc5</td>
+                <td class="map">cp_freight_final1</td>
             </tr>
 
             <tr class="server_tablerow">
@@ -49,7 +49,7 @@
                 <td class="playernum"> <span class="server_empty">0/8</span> </td>
                 <td class="link"> <a href="steam://connect/dm.sappho.io:27415">dm.sappho.io:27415</a> </td>
                 <td class="name">The Spaceship - DM #2</td>
-                <td class="map">ctf_turbine_pro_rc4</td>
+                <td class="map">cp_sunshine</td>
             </tr>
 
             <tr class="server_tablerow">
@@ -57,7 +57,7 @@
                 <td class="playernum"> <span class="server_empty">0/8</span> </td>
                 <td class="link"> <a href="steam://connect/dm.sappho.io:28315">dm.sappho.io:28315</a> </td>
                 <td class="name">The Spaceship - DM #3</td>
-                <td class="map">cp_sunshine</td>
+                <td class="map">cp_granary_pro_rc8</td>
             </tr>
 
             <tr class="server_tablerow">
@@ -65,23 +65,15 @@
                 <td class="playernum"> <span class="server_empty">0/8</span> </td>
                 <td class="link"> <a href="steam://connect/dm.sappho.io:28415">dm.sappho.io:28415</a> </td>
                 <td class="name">The Spaceship - DM #4</td>
-                <td class="map">koth_product_final</td>
+                <td class="map">cp_villa_b19</td>
             </tr>
 
-            <tr class="server_tablerow">
-                <td class="gametype"><a href="https://www.teamfortress.com/"><img src="https://steamcdn-a.akamaihd.net/apps/tf2/blog/images/favicon.ico"></a></td>
-                <td class="playernum"> <span class="server_empty">0/8</span> </td>
+            <tr class="server_tablerow td_error">
+                <td class="gametype"><a href="https://sappho.io/spaceship"><img src="https://sappho.io/rsrc/galaxyemoji_new_round.png"></a></td>
+                <td class="playernum"> <span class="server_error">0/0</span> </td>
                 <td class="link"> <a href="steam://connect/tf.sappho.io:27515">tf.sappho.io:27515</a> </td>
-                <td class="name">The Spaceship - DM #5</td>
-                <td class="map">cp_gullywash_f9</td>
-            </tr>
-
-            <tr class="server_tablerow">
-                <td class="gametype"><a href="https://www.teamfortress.com/"><img src="https://steamcdn-a.akamaihd.net/apps/tf2/blog/images/favicon.ico"></a></td>
-                <td class="playernum"> <span class="server_empty">0/8</span> </td>
-                <td class="link"> <a href="steam://connect/tf.sappho.io:27815">tf.sappho.io:27815</a> </td>
-                <td class="name">The Spaceship - DM #6</td>
-                <td class="map">cp_prolands_rc2ta</td>
+                <td class="name">Query timeout.</td>
+                <td class="map">N/A</td>
             </tr>
 
             <tr class="server_tablerow">
@@ -89,7 +81,7 @@
                 <td class="playernum"> <span class="server_empty">0/24</span> </td>
                 <td class="link"> <a href="steam://connect/tf.sappho.io:27615">tf.sappho.io:27615</a> </td>
                 <td class="name">The Spaceship - Open Ultiduo Server</td>
-                <td class="map">koth_ultiduo_r_b7</td>
+                <td class="map">ultiduo_seclusion_b3_fixed_wind</td>
             </tr>
 
             <tr class="server_tablerow">
@@ -97,7 +89,7 @@
                 <td class="playernum"> <span class="server_empty">0/8</span> </td>
                 <td class="link"> <a href="steam://connect/bb1.sappho.io:27715">bb1.sappho.io:27715</a> </td>
                 <td class="name">The Spaceship - Open BBall Server</td>
-                <td class="map">ctf_ballin_skyfall</td>
+                <td class="map">ctf_bball_alpine_b4</td>
             </tr>
 
             <tr class="server_tablerow">
@@ -113,7 +105,7 @@
                 <td class="playernum"> <span class="server_empty">0/24</span> </td>
                 <td class="link"> <a href="steam://connect/tf.sappho.io:29015">tf.sappho.io:29015</a> </td>
                 <td class="name">The Spaceship - Freestyle Jump Server</td>
-                <td class="map">freestyle_88</td>
+                <td class="map">freestyle_chromatic</td>
             </tr>
 
             <tr class="server_tablerow">
@@ -121,7 +113,7 @@
                 <td class="playernum"> <span class="server_empty">0/24</span> </td>
                 <td class="link"> <a href="steam://connect/tf.sappho.io:29999">tf.sappho.io:29999</a> </td>
                 <td class="rainbow-name">The Spaceship - The Pub</td>
-                <td class="map">pl_problitz_rc2</td>
+                <td class="map">koth_king</td>
             </tr>
 
             <tr class="server_tablerow">
